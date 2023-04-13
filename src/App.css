@@ -1,0 +1,27 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .input form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  form label,
+  form input,
+  .input button {
+      font-size: 4rem;
+      margin: 10px;
+  }
+  
+  form #contact_consent {
+      height: 100px;
+      width: 100px;
+  }
+  
