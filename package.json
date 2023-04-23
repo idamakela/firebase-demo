@@ -6,16 +6,11 @@
   "scripts": {
     "start": "node backend.js",
     "dev": "vite",
-    "build": "vite build",
+    "build": "dotenv -e .env vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^0.24.0",
-    "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
     "firebase": "^9.19.1",
-    "nodemon": "^2.0.22",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -23,6 +18,7 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react-swc": "^3.0.0",
+    "dotenv": "^16.0.3",
     "vite": "^4.2.1"
   }
 }
