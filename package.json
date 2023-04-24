@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node backend.js",
     "dev": "vite",
-    "build": "dotenv -e .env vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
